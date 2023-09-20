@@ -1,0 +1,44 @@
+*{
+    align-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.table{
+    border: 10px solid #000;
+}
+
+.table td, .table th{
+    border: 10px solid #000;
+}
+
+.th{
+    align-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.input{
+    margin-left: 10px;
+}
+
+.name{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.svg{
+    margin-left: 1px;
+}
+
+
+
+
+/* <th class="name">NOMBRE APRENDIZ</th>
+                    <th class="programa">PROGRAMA</th>
+                    <th class="novedad">TIPO DE NOVEDAD</th>
+                    <th class="fecha">FECHA</th>
+                    <th class="validación">ESTADO VALIDACIÓN</th>
+                    <th class="ver_novedad">VER NOVEDAD</th> */
+

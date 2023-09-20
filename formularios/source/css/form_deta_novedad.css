@@ -1,0 +1,150 @@
+.container-form-novedad {
+    box-sizing: content-box;
+    box-shadow: 0 4px 8px 0 rgba(7, 7, 7, 0.966);
+    background-color: #fffffff8; /* Color de fondo */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.h3{
+    /* 8C8C8C color de la letra*/
+}
+.form-group1{
+    display: flex;
+}
+
+.form-group1 input{
+    margin-right: 15px;
+}
+
+.form-group1 label{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.form-group2 .form-check-inline{
+    margin-left: 30px;
+}
+.form-group3 .form-check-inline{
+    margin-left: 30px;
+}
+
+.form-group4{
+    display: flex;
+}
+
+.form-group4 label{
+    margin-top: 9px;
+}
+.form-group4 input{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10x;
+    margin-right: 5px;
+     
+}
+
+.form-group5 label{
+    margin-top: 9px;
+}
+
+.form-group5 input{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10x;
+    margin-right: 5px;
+     
+}
+
+.form-group6 .form-check-inline{
+    margin-left: 30px;
+    margin-top: 9px;
+}
+
+.form-group6 .form-check-input{
+    margin-left: 30px;
+    margin-top: 11px;
+}
+
+.form-group6 label{
+    margin-top: 9px;
+}
+
+
+.form-group7 .form-check-inline{
+    margin-left: 30px;
+}
+
+.form-group7 label{
+    margin-top: 9px;
+}
+
+.form-group8 {
+    display: flex;
+}
+
+.form-group8 input{
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-left: 1px;
+}
+
+.form-group8 label{
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 1px;
+}
+
+.no_valid{
+    
+    margin-left: 100px;
+    margin-top: 15px;
+    background-attachment: fixed;
+    background-color: #da2c2c;
+    border: none;
+    color:white;
+    padding: 5px  15px;
+    text-align: center; 
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+    
+}
+
+.no_valid:hover{
+    background-color: #c75252;
+    color: white;
+    transform: scale(1.5);
+}
+
+.valid{
+    margin-right: 90px;
+    margin-left: 80px;
+    margin-top: 15px;
+    background-attachment: fixed;
+    background-color: #39A900;
+    border: none;
+    color:white;
+    padding: 5px  15px;
+    text-align: center; 
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+ 
+}
+
+.valid:hover{
+    background-color: #39A900;
+    color: white;
+    transform: scale(1.5);/*aqui se pueden poner otras como translate,rotate,matrix,skew, me gustaron tambien*/
+}

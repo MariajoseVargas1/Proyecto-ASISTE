@@ -1,0 +1,83 @@
+.container1{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+
+
+
+.card {
+    border: 1px;
+    position: relative;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 50%; 
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 95px 3px #6cdd34;
+}
+
+.card.pequeña {
+    justify-content: center;
+    width: 170px; /* Ancho de la card pequeña */
+    height: 170px; /* Altura de la card pequeña */
+    /* background-color: #f0f0f0; */
+    float: left; /* Para que las cards se coloquen una al lado de la otra */
+}
+
+.card.grande {
+    margin-top: 95px;/*margen de la card desde arriba hasta la card*/
+    margin-left: 200px;/* margin: 100px; */
+    width: 280px; /* Ancho de la card grande (un poco más grande que la pequeña) */
+    height: 450px; /* Altura de la card grande */
+    /* background-color: #e0e0e0; */
+    float: left; /* Para que las cards se coloquen una al lado de la otra */
+}
+
+.card.pequeña2 {
+    justify-content: center;
+    width: 170px; /* Ancho de la card pequeña */
+    height: 170px; /* Altura de la card pequeña */
+    float: left; /* Para que las cards se coloquen una al lado de la otra */
+}
+
+.card.grande2 {
+    margin-top: 95px;/*margen de la card desde arriba hasta la card*/
+    margin-left: 70px;/* margin: 100px; */
+    width: 280px; /* Ancho de la card grande (un poco más grande que la pequeña) */
+    height: 450px; /* Altura de la card grande */
+    float: left; /* Para que las cards se coloquen una al lado de la otra */
+}
+
+.card.pequeña3 {
+    justify-content: center;
+    width: 170px; /* Ancho de la card pequeña */
+    height: 170px; /* Altura de la card pequeña */
+    float: left; /* Para que las cards se coloquen una al lado de la otra */
+}
+
+.card.grande3 {
+    margin-top: 95px;/*margen de la card desde arriba hasta la card*/
+    margin-left: 70px;/* margin: 100px; */
+    width: 280px; /* Ancho de la card grande (un poco más grande que la pequeña) */
+    height: 450px; /* Altura de la card grande */
+    float: left; /* Para que las cards se coloquen una al lado de la otra */
+}
+
+.card.pequeña4 {
+    justify-content: center;
+    width: 170px; /* Ancho de la card pequeña */
+    height: 170px; /* Altura de la card pequeña */
+    float: left; /* Para que las cards se coloquen una al lado de la otra */
+}
+
+.card.grande4 {
+    margin-top: 95px;/*margen de la card desde arriba hasta la card*/
+    margin-left: 200px;/* margin: 100px; */
+    width: 280px; /* Ancho de la card grande (un poco más grande que la pequeña) */
+    height: 450px; /* Altura de la card grande */
+    float: left;
+}
+

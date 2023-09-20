@@ -1,0 +1,139 @@
+.navbar-brand{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.image_firts{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.inicio{
+    margin-right: 35px;
+    margin-left: 75px;
+    margin-top: 19px;
+}
+
+.inicio:hover{
+    text-decoration: underline overline;/*para quitar el subrayado de arriba solo quitar el overline*/
+    text-decoration-color: #39A900;
+    text-decoration-style: wavy;/*en vez de wavy poner solid, solo que wavy me gusto*/
+    color: #39A900;
+}
+
+.registro{
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-top: 19px;
+
+}
+
+.registro:hover{
+    text-decoration: underline overline;/*para quitar el subrayado de arriba solo quitar el overline*/
+    text-decoration-color: #39A900;
+    text-decoration-style: wavy;/*en vez de wavy poner solid, solo que wavy me gusto*/
+    color: #39A900;
+}
+
+.asistencia{
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-top: 19px;
+
+}
+
+.asistencia:hover{
+    text-decoration: underline overline;/*para quitar el subrayado de arriba solo quitar el overline*/
+    text-decoration-color: #39A900;
+    text-decoration-style: wavy;/*en vez de wavy poner solid, solo que wavy me gusto*/
+    color: #39A900;
+}
+
+.notificaciones{
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-top: 19px;
+
+}
+
+.notificaciones:hover{
+    text-decoration: underline overline;/*para quitar el subrayado de arriba solo quitar el overline*/
+    text-decoration-color: #39A900;
+    text-decoration-style: wavy;/*en vez de wavy poner solid, solo que wavy me gusto*/
+    color: #39A900;
+}
+
+.informacion{
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-top: 19px;
+    text-decoration: none; 
+    color:black; 
+    
+}
+
+.informacion:hover{
+    text-decoration: underline overline;/*para quitar el subrayado de arriba solo quitar el overline*/
+    text-decoration-color: #39A900;
+    text-decoration-style: wavy;/*en vez de wavy poner solid, solo que wavy me gusto*/
+    color: #39A900;
+}
+
+
+.modern_button{
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-top: 19px;
+    background-attachment: fixed;
+}
+
+
+.settings_button{
+    margin-right: 35px;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-attachment: fixed;
+    background-color: #39A900;
+    border: none;
+    color:white;
+    padding: 5px  15px;
+    text-align: center; 
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    /*animation: boton-animado 2s ease-in-out initial;se puede infinitamente pero no tengo mucho control de eso*/
+    transition: transform 0.3s ease;
+    
+}
+
+.settings_button:hover{
+    background-color: #39A900;
+    color: white;
+    transform: scale(2);/*aqui se pueden poner otras como translate,rotate,matrix,skew, me gustaron tambien*/
+}
+
+.settings_button:active{
+    transform: scale(2);
+}
+
+/* @keyframes boton-animado{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50%{
+        transform: scale(2);
+        opacity: 0.5;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    } */

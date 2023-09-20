@@ -1,0 +1,149 @@
+* {
+    
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+}
+.logo_asiste{
+    opacity: 1;
+    width: 200px;
+}
+img{
+    width: 50px;
+}
+.home{
+
+align-items: start;
+}
+.card-asiste{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+.card-title-titulo{
+    color: rgb(15, 138, 15);
+    font-size: 60px;
+
+}
+.card-text{
+    padding-top: 15px;
+}
+.parrafo{
+    text-align: justify;
+}
+button{
+    border: none;
+    background-color: white;
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+}
+.botones{
+    padding: 20px;
+}
+.botones, .botones div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botones div .settings{
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+    background-color: green;
+}
+.button{
+    opacity: 0.6;
+}
+button:hover, button:focus{
+    color: green;
+    opacity: 1;
+}
+.botones div:hover{
+    scale: 0.98;
+    border-bottom: solid 2px green;
+}
+.botones #logo-asiste:hover{
+    border: none;
+}
+.card-group{
+    padding-left: 100px;
+    
+}
+.card-1{
+    margin: 20px;
+    width:20%;
+}
+#card-title{
+    color: rgb(15, 138, 15);
+    margin: 8px;
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+
+}
+
+.tituloB{
+    text-align: center;
+    padding-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(15, 138, 15);
+    font-size: 200%;
+}
+.card-top{
+    width: 28%;
+    margin-left:35% ;
+}
+#row{
+    padding:100px;
+}
+.card-top1{
+    width: 28%;
+    margin-left:38% ;
+}
+.card-top2{
+    width: 28%;
+    margin-left:35% ;
+}
+.card-top3{
+    width: 28%;
+    margin-left:36% ;
+}
+.tituloA{
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(15, 138, 15);
+    font-size: 200%;
+}
+
+.rounded-start{
+width: 80%;
+padding-left: 100px;
+}
+.card-body1{
+    padding-left: 20px;
+}
+.cardAsis{
+    padding-left:30px;
+}
+.ImgAsis{
+    padding: -200px;
+}
+.tituloC{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(15, 138, 15);
+    font-size: 200%;
+}
+#card-text{
+    text-align: center;
+
+}
+#card-title-Escaner{
+    color: rgb(15, 138, 15);
+    text-align: center;
+    padding-top:30px ;
+    padding-bottom:20px ;
+}

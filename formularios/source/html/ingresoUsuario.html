@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/Proyecto-ASISTE/formularios/source/css/ingresoUsuario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../resources/images/_icono_asiste.png" type="image/x-icon">
+    <title>Ingreso Usuario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        #password-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="p-2 m-0 border-0 bd-example ">
+    <div class="first">
+        <div class="card mb-3 bg-white col-8">
+            <div class="row g-0">
+                <div class="col-md-6 form">
+                    <div class="logos">
+                        <img class="logo-asiste-horizontal" id="sitio-web-asiste"
+                            src="../resources/images/_logo_asiste_horizontal.png" alt="Logo de asiste con letras horizontales">
+                        <img class="logo-sena-verde" id="sitio-web-sena" src="../resources/images/_logo_sena_verde.png"
+                            alt="Logo del SENA verde">
+                    </div>
+                    <div class="container">
+                        <div class="column">
+                            <form id="password-form" action="#" method="post">
+                                <h3>Ingreso Usuarios</h3>
+                                <input type="text" class="form-control form-user" id="user"
+                                    placeholder="Numero de documento" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+
+                                <input type="text" class="form-control form-user" id="user" placeholder="Contraseña"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                                <a class="olvido">Olvido su contraseña?</a>
+                                <button type="button" class="btn btn-primary1 registro"
+                                    style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem;">
+                                    Inicio
+                                </button><br><br>
+
+
+
+                            </form>
+                        </div>
+                        <div class="column">
+                            <img src="/Proyecto-ASISTE/formularios/source/resources/images/muñeco.png" alt="Imagen" class="muñeco">
+                        </div>
+                    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>

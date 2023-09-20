@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color:  hsl(102, 100%, 97%);
+    position: absolute;
+    padding-bottom: 3em;
+    min-height: 100vh;
+
+}
+
+.pie-pagina .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .group-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .group-1 .box figure img{/*buscar un buen color de fondo porque no se ve la imagen o bscar en el drive logos que si se vean mejor*/
+    width:250px;
+}
+
+.pie-pagina .group-1 .box h2{/*cambiar esto,se necesita bajar el asiste,centrado con la imagen, tambien considerar si quitar el siguenos y dejar solo los iconos*/
+    color: black;
+    margin-bottom: 20px;
+    /* margin-top: 22px; */
+    font-size: 20px;
+}
+
+.pie-pagina .group-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 15px;
+    background-color: #51a129;
+    text-align: center;
+    transition: all 300ms ease;
+    margin-top: 15px;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+    transition: transform 0.3s ease;
+    
+}
+
+.pie-pagina .group-1 .red-social a:hover{
+    transform: scale(1.5);
+}
+
+
+.pie-pagina .group-2{
+    background-color: #78d649;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .group-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .group-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+    
+}
